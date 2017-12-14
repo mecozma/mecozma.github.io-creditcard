@@ -1,0 +1,2 @@
+test the javascript code
+connect the UI with the JavaScript code

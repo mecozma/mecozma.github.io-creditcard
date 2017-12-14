@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credit card validator</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+<body>
+   
+<section class="container">
+  <div id="creditCard" class="card" >
+    <div class="front">
+        <div class="chip">
+            <div>==</div>
+        </div><!-- End of .chip -->
+        <input id="cardNumber" type="text" placeholder="****************" onblur="checkInputIsValid();">
+        <input id="fullName" type="text" placeholder="Full Name" onblur="checkInputIsValid();">
+        <input id="cardExpiryDate" type="text" placeholder="Expiry Date  --/--" maxlength="4" onblur="checkInputIsValid();">
+        <input type="button" value="Flip" onclick="flip();">
+    </div><!-- End of .front -->
+    <div class="back">2</div><!-- End of .back -->
+  </div>
+</section>
+
+    
+            
+    <script src="js/script.js"></script>
+</body>
+</html>
